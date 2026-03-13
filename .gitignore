@@ -1,0 +1,45 @@
+# Python 运行时生成的缓存和字节码
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境目录（venv、.venv 等）
+.venv/
+venv/
+ENV/
+
+# 依赖安装目录
+dist/
+build/
+*.egg-info/
+
+# 环境变量和敏感配置文件
+.env
+.env.local
+config/secrets.json
+
+# IDE 和编辑器配置（可选，按你用的工具保留或删除）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 测试覆盖率报告
+htmlcov/
+.coverage
+coverage.xml
+
+# mypy 缓存
+.mypy_cache/
+
+# pytest 缓存
+.pytest_cache/
+
+# 日志文件
+*.log
+logs/
+
+# 数据库文件（如果是本地开发用的 SQLite）
+*.db
+*.sqlite3
